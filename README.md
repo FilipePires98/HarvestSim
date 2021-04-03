@@ -12,7 +12,7 @@ The FI is the infrastructure for the agricultural harvest.
 The CC and the FI are implemented as two different processes and the communication between them is through sockets.
 
 The Control Center UI allows the user to follow the simulation in real-time:
-![UserInterface1](https://github.com/FilipePires98/HarvestSim/blob/master/docs/img/UserInterface_CC_2.png)
+![UserInterface](https://github.com/FilipePires98/HarvestSim/blob/master/Demo.gif)
 
 ## Repository Structure
 
