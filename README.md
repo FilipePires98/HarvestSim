@@ -1,31 +1,36 @@
-# Projects on Software Architecture
-
+# Harvest Simulation
+A Multi-Threaded Harvest Simulator
 ## Description
 
-This repository contains the work done by the authors on the practical assignments for the course in Software Architecture of the MSc. in Informatics Engineering of the University of Aveiro.
-Each project directory contains its own 'README.md' with details on the assignment and instructions on how to run the code.
+The goal of this project is to provide a system focused on an architecture where concurrency (processes and threads) are a key aspect.
+The chosen use case is an agriculture harvest simulation, where multiple farmers (threads) work together to manage the harvest and storage of corn cobs (shared resources).
 
-'Project 1 - Harvest Simulation' contains the first assignment, focused on an architecture where concurrency (processes and threads) are a key aspect.
+The programming tools used are: Java for the concurrent application; Java Swing for the UI.
+There are two main entities: the Control Center (CC) and the Farm Infrastructure (FI).
+The CC is responsible for supervising the harvest.
+The FI is the infrastructure for the agricultural harvest.
+The CC and the FI are implemented as two different processes and the communication between them is through sockets.
 
-![UserInterface1](https://github.com/FilipePires98/Projects-on-SoftwareArchitecture/blob/master/Project1-HarvestSimulation/Report/img/UserInterface_CC_2.png)
+The Control Center UI allows the user to follow the simulation in real-time:
+![UserInterface1](https://github.com/FilipePires98/HarvestSim/blob/master/docs/img/UserInterface_CC_2.png)
 
-'Project 2 - Vehicle Supervising' contains the second assignment, focused on a platform based on Apache Kafka that collects and processes information from 
-simulated vehicles.
+## Repository Structure
 
-![UserInterface2](https://github.com/FilipePires98/Projects-on-SoftwareArchitecture/blob/master/Project2-VehicleSupervising/Report/img/GUI_3.png)
+/docs - contains project report and diagrams
 
-'Project 3 - Scientific Computation Platform' contains the third assignment, focused on a scientific computation platform that relies on four of the most relevant 
-quality attributes: performance, availability, scalability and usability.
+/src - contains the source code of the simulator, written in Java
 
-![UserInterface3-c](https://github.com/FilipePires98/Projects-on-SoftwareArchitecture/blob/master/Project3-ScientificComputationPlatform/Report/img/C_active.png)
-![UserInterface3-s](https://github.com/FilipePires98/Projects-on-SoftwareArchitecture/blob/master/Project3-ScientificComputationPlatform/Report/img/S_active.png)
+## Instructions to Build and Run
 
-![UserInterface3-lbm](https://github.com/FilipePires98/Projects-on-SoftwareArchitecture/blob/master/Project3-ScientificComputationPlatform/Report/img/LBM_large.png)
+1. Have installed Java SE8.
+2. Have installed NetBeans or other IDE (only tested with Netbeans).
+3. Open the project folder 'PA1_P1G07' on your IDE.
+4. Run the Main class and enjoy the Harvest Simulation.
 
-## Authors:
+## Authors
 
-The authors of this repository are Filipe Pires and João Alegria.
+The authors of this repository are Filipe Pires and João Alegria, and the project was developed for the Software Architecture Course of the Master's degree in Informatics Engineering of the University of Aveiro.
 
-For further information, please read our reports or contact us at filipesnetopires@ua.pt or joao.p@ua.pt.
+For further information, please read our [report](https://github.com/FilipePires98/HarvestSim/blob/master/docs/report.pdf) or contact us at filipesnetopires@ua.pt or joao.p@ua.pt.
 
 
