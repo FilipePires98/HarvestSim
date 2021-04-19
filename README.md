@@ -1,5 +1,11 @@
 # Harvest Simulation
 A Multi-Threaded Harvest Simulator
+
+![](https://img.shields.io/badge/Academical%20Project-Yes-success)
+![](https://img.shields.io/badge/License-Free%20To%20Use-green)
+![](https://img.shields.io/badge/Made%20With-Java-red)
+![](https://img.shields.io/badge/Maintained-No-red)
+
 ## Description
 
 The goal of this project is to provide a system focused on an architecture where concurrency (processes and threads) are a key aspect.
